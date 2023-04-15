@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(244, 212, 170);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-size: 16px;
+    padding-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif\;
+}
+.header{
+    background-color: rgb(210, 69, 69);
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+.linav{
+    color: yellow;
+    margin: 0 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.main{
+    display: flex;
+    flex-grow: 1;
+    width: 1000px;
+    padding-top: 50px;
+}
+.aside{
+    width: 300px;
+    padding-left: 10px; 
+}
+.selection{
+   padding-left: 120px;
+   padding-right: 50px;
+}
+.h2{
+    background-color: brown;
+    color: yellow;
+    border-left: 5px solid brown;
+}
+.footer{
+   text-align: center;
+   border-top: 1px solid grey;
+}
+.div{
+    color: yellow;
+}
+.h1{
+    background-color: brown;
+    color: yellow;
+}
+.span{
+    color: red;
+}
+.h7{
+    border-top: 5px solid rgb(112, 1, 1);
+    padding-top: 10px;
+}
+.img3{
+    padding-top: 10px;
+}
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .form {
+    width: 585px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .form__notice {
+    color: #ff3f3f;
+    margin-bottom: 5px;
+  }
+  
+  .label {
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .label__title {
+    width: 65px;
+    margin-right: 33px;
+    font-weight: bold;
+  }
+  
+  .textarea {
+    margin-bottom: 25px;
+    resize: none;
+    box-sizing: border-box;
+    width: 288px;
+    height: 90px;
+  }
+  
+  .label__input,
+  .textarea {
+    padding: 9px;
+    border-radius: 5px;
+    border: 2px solid #343435;
+  }
+  
+  .form__submit {
+    font-weight: bold;
+    margin-bottom: 70px;
+    width: 115px;
+    height: 35px;
+    border-radius: 5px;
+    background: #f3f3f3;
+    border: 2px solid #b9b9ba;
+    cursor: pointer;
+  }
+  
+  .label__hint {
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    left: 405px;
+    padding: 6px;
+    width: 130px;
+    background-color: #d45252;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    opacity: 0;
+  }
+  
+  .label__hint::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #d45252;
+    position: absolute;
+    left: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .label__input:invalid + .label__hint {
+    opacity: 1;
+}
+.navigition{
+    list-style: none;
+    /*display: flex;
+*/}
+/*.linav{
+    margin-right: 47px;
+}

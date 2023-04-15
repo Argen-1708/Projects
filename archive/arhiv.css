@@ -1,0 +1,164 @@
+/* body{
+    background-color: antiquewhite;
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.vet{
+    color: grey;
+}
+.header{
+    display: block;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+}
+.glav{
+    color: chocolate;
+    padding: 0 10px;
+}
+.main{
+    width: 1000px;
+    padding-top: 25px;
+    margin: 0 auto;
+    display: flex;
+    flex-grow: 1;
+    
+}
+.aside{
+    width: 300px;
+    flex: 0;
+    display: block;
+}
+.img{
+    border: 1px solid chocolate;
+    width: 300px;
+}
+.p{
+    color: chocolate;
+    
+}
+.selection{
+   padding-left: 70px;
+   display: block;
+   flex-grow: 1;
+}
+
+.h1{ color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;}
+
+    .h2{
+        margin-top: 30px;
+        padding-left: 30px;
+        border-left: 7px solid chocolate;
+        display: block;
+        font-weight: bold;
+    text-decoration: underline;}
+        
+.footer{
+    border-top: 1px solid grey;
+    padding: 20px;
+    text-align: center;
+    text-decoration: underlin
+}
+    */
+    
+/* Reset styles */
+/* * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} */
+
+/* Basic styles
+body {
+	font-family: sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.promo {
+	background-color: #ff9900;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	justify
+} */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  li {
+    margin: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align:center
+  }
+  
